@@ -1,0 +1,5 @@
+#!/bin/bash
+read -p 'name_file: ' n
+echo "#!/bin/bash" >> "$n"
+chmod u+x "$n"
+vi "$n"
