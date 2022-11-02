@@ -1,3 +1,3 @@
 # C - printf
 # Resources
-<a href="/rltoken/VUKsf4GzSLQ6jD07Q8jyMQ" title="Secrets of printf" target="_blank">Secrets of printf</a>
+<a href="https://quizgen.doncolton.com/tut/q11.printf.p6.pdf" title="Secrets of printf" target="_blank">Secrets of printf</a>
