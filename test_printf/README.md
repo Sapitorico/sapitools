@@ -93,3 +93,7 @@ Len:[12]
 Unknown:[%r]
 Unknown:[%r]
 ```
+
+# Diagrama improvisado de printf
+
+<img width="6016" alt="diagrama de flujo" src="https://user-images.githubusercontent.com/105575956/199556955-9040489c-02db-46c4-9148-2638be7c109f.png">
