@@ -66,7 +66,7 @@ int main(void)
     return (0);
 }
 ```
-	OUTPUTS
+* OUTPUTS:
 ```
 Let's try to printf a simple sentence.
 Let's try to printf a simple sentence.
