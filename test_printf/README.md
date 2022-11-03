@@ -1,6 +1,9 @@
 # C - printf
 # Resources
-<a href="https://quizgen.doncolton.com/tut/q11.printf.p6.pdf" title="Secrets of printf" target="blank">Secrets of printf</a>
+* <a href="https://quizgen.doncolton.com/tut/q11.printf.p6.pdf" title="Secrets of printf" target="blank">Secrets of printf</a>
+* <a href="https://github.com/Sapitorico/holbertonschool-low_level_programming/tree/main/structures_typedef" target="blank">Structures, typedef</a>
+* <a href="https://github.com/Sapitorico/holbertonschool-low_level_programming/tree/main/function_pointers" target="blank">Function pointers</a>
+* <a href="https://github.com/Sapitorico/holbertonschool-low_level_programming/tree/main/variadic_functions" target="blank">Variadic functions</a>
 # Requirements
 * Allowed editors: vi, vim, emacs.
 * You are not allowed to use global variables.
