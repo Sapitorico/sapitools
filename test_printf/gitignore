@@ -1,9 +1,0 @@
-# files
-Makefile
-.gitignore
-# Object files
-*.o
-# Libraries
-*.a
-# tmp
-.swp
