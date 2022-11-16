@@ -34,8 +34,6 @@ int _printf(const char *format, ...)
 			{
 				counter += f(args);
 			}
-			else if (format[constant] == 37)
-				counter += _putchar(37);/*if the character after the % is another %*/
 			else
 			{
 				/*printed the % and character follow in case of no flag*/
@@ -60,6 +58,7 @@ int (*get_format(const char *format_flag))(va_list)
 		{'c', print_char},
 		{'s', print_string},
 		{'d', print_inter},
+		{'%', print_module},
 		{'i', print_inter},
 		{'b', print_binary},
 		{'u', print_unsigned},
@@ -105,6 +104,16 @@ int print_string(va_list args)
 	if (!str)
 		str = "(null)";
 	return (_puts(str));
+}
+/**
+ * print_module - print module
+ * @args: unused
+ *
+ * Return: value returned from the fucntion
+ */
+int print_module(__attribute__((unused)) va_list args)
+{
+	return (write(1, '%', 1));
 }
 /**
  * print_rev - prints a Sting in reverse
