@@ -12,7 +12,7 @@ typedef struct neuron
 } neuron;
 
 /* Data structure for a neural network layer */
-typedef struct layer 
+typedef struct layer
 {
 	neuron *neurons;
 	int numNeurons;
