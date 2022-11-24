@@ -1,16 +1,29 @@
 #include "network.h"
 /**
  */
-int main()
+int main(int argc, char *argv[])
 {
-	int layerSizes[] = {2, 3, 1};
-	neuralNet *nn = newNeuralNet(3, layerSizes);
-	double inputs[] = {2.0, 2.0};
+	neuralNet *nn;
+	double inputs[4] = {1, 1, 1, 1.0};
+	double outputs[5];
+
+	/* Initialize random number generator */
+	srand(time(NULL));
+
+	/* Create a new neural network */
+	nn = newNeuralNet(3, (int []) {2, 1, 2});
+
+	/* Propagate inputs through the neural network */
 	propagate(nn, inputs);
-	double outputs[1];
+
+	/* Get the outputs of the neural network */
 	getOutputs(nn, outputs);
 
-	printf("Output: %f\n", outputs[0]);
+	/* Print the outputs */
+	printf("%f\n", outputs[3]);
+
+	/* Free all memory used by the neural network */
 	freeNeuralNet(nn);
-	return 0;
+
+	return(0);
 }

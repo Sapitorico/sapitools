@@ -3,6 +3,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <math.h>
+#include <time.h>
 /* Data structure for a neuron */
 typedef struct neuron
 {
